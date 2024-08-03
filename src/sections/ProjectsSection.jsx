@@ -1,8 +1,8 @@
 import ProjectCard from "../components/ProjectCard"
 import mewsixImg from "../assets/images/mewsix.png"
 import contactAppImg from "../assets/images/contactapp.png"
-import devSandboxImg from"../assets/images/devsandbox.png"
-import animatedWebsiteImg from"../assets/images/animatedwebsite.png"
+import devSandboxImg from "../assets/images/devsandbox.png"
+import animatedWebsiteImg from "../assets/images/animatedwebsite.png"
 
 const ProjectsSection = () => {
   const mewsix = [
@@ -32,11 +32,11 @@ const ProjectsSection = () => {
   ]
 
   return (
-    <>
-    <div className="flex flex-col text-center w-full mb-20">
-                    <h1 className="sm:text-3xl text-2xl font-semibold title-font mb-4 text-gray-900 capitalize">Here are my Projects</h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base capitalize">From designing engaging interfaces to developing interactive web experiences, I specialize in creating visually captivating and highly functional projects. Always excited to explore new technologies and push the boundaries of web development.</p>
-                </div>
+    <><div className="bg-background text-subtext">
+      <div className="flex flex-col text-center w-full mb-20">
+        <h1 className="sm:text-3xl text-2xl font-semibold title-font mb-4 text-heading capitalize">Here are my Projects</h1>
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-base capitalize">From designing engaging interfaces to developing interactive web experiences, I specialize in creating visually captivating and highly functional projects. Always excited to explore new technologies and push the boundaries of web development.</p>
+      </div>
       <ProjectCard
         title="Mewsix"
         description="a Music Player, allows users to play their favorite music tracks directly in their web browser without any external dependencies."
@@ -61,7 +61,7 @@ const ProjectsSection = () => {
         features={devSandbox}
         image={devSandboxImg}
         isLeft
-        />
+      />
       <ProjectCard
         title="Animated Website"
         description="an animated website featuring smooth animations and a modern design."
@@ -69,8 +69,9 @@ const ProjectsSection = () => {
         livePreviewLink="https://github.com/ronit-ghosh/Animated-Golf-Website"
         features={animatedWebsite}
         image={animatedWebsiteImg}
-        isLeft = {false}
-        />
+        isLeft={false}
+      />
+    </div>
     </>
   )
 }

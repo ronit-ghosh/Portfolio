@@ -8,6 +8,32 @@ body {
     height: 100%;
 }
 
-*{
+* {
     box-sizing: border-box;
+}
+
+.light {
+    --background        : 255, 255, 255;
+    --accent            : 99, 102, 241;
+    --accent_hover      : 79, 70, 229;
+    --heading           : 17, 24, 39;
+    --subtext           : 75, 85, 99;
+    --btn_text          : 55, 65, 81;
+    --btn_bg_color      : 243, 244, 246;
+    --btn_hover_bg_color: 229, 231, 235;
+    --quotation         : 156, 163, 175;
+    --border            : 229, 231, 235;
+}
+
+.dark {
+    --background        : 17, 24, 39;
+    --accent            : 99, 102, 241;
+    --accent_hover      : 79, 70, 229;
+    --heading           : 255, 255, 255;
+    --subtext           : 156 163 175;
+    --btn_text          : 156 163 175;
+    --btn_bg_color      : 31 41 55;
+    --btn_hover_bg_color : 55 65 81;
+    --quotation         : 156, 163, 175;
+    --border            : 107 114 128;
 }
