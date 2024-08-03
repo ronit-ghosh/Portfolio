@@ -49,7 +49,7 @@ const ProjectsSection = () => {
         title="Contact App"
         description="a CRUD Contact App with real-time contact management & search functionality."
         githubLink="https://github.com/ronit-ghosh/React-JS-Practice-Projects/tree/main/Contact-App"
-        livePreviewLink="https://github.com/ronit-ghosh/React-JS-Practice-Projects/tree/main/Contact-App"
+        livePreviewLink="https://contact-app-one-gray.vercel.app/"
         features={contactApp}
         image={contactAppImg}
         isLeft={false} />
@@ -57,7 +57,7 @@ const ProjectsSection = () => {
         title="Dev Sandbox"
         description="a web application designed to render HTML, CSS, and JavaScript."
         githubLink="https://github.com/ronit-ghosh/Dev-Sandbox"
-        livePreviewLink="https://github.com/ronit-ghosh/Dev-Sandbox"
+        livePreviewLink="https://dev-sandbox-three.vercel.app/"
         features={devSandbox}
         image={devSandboxImg}
         isLeft
@@ -66,7 +66,7 @@ const ProjectsSection = () => {
         title="Animated Website"
         description="an animated website featuring smooth animations and a modern design."
         githubLink="https://github.com/ronit-ghosh/Animated-Golf-Website"
-        livePreviewLink="https://github.com/ronit-ghosh/Animated-Golf-Website"
+        livePreviewLink="https://animated-golf-website.vercel.app/"
         features={animatedWebsite}
         image={animatedWebsiteImg}
         isLeft={false}
