@@ -5,9 +5,9 @@ const FooterSection = () => {
         <footer className="text-subtext bg-background body-font">
             <div className="container px-10 py-8 mx-auto flex items-center sm:flex-row flex-col">
                 <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                    <span className="ml-3 text-xl cursor-help"><img src={logo} alt="logo" className="w-10 bg-indigo-500 rounded-full p-2" /></span>
+                    <span className="ml-3 text-xl cursor-help sm:block hidden"><img src={logo} alt="logo" className="w-10 bg-indigo-500 rounded-full p-2" /></span>
                 </a>
-                <p className="text-sm  sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-border sm:py-2 sm:mt-0 mt-4 cursor-help">© 2024 Personal Portfolio —
+                <p className="text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-border sm:py-2 sm:mt-0 mt-4 cursor-help">© Personal Portfolio —
                     <a href="" className="text-subtext ml-1 cursor-help" rel="noopener noreferrer" target="_blank">@ronit-ghosh</a>
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

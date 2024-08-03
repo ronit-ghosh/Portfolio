@@ -37,3 +37,7 @@ body {
     --quotation         : 156, 163, 175;
     --border            : 107 114 128;
 }
+
+#root{
+    background-color: var(--background);
+}

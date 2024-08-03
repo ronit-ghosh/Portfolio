@@ -24,7 +24,7 @@ const SkillsSection = () => {
         text: "React",
         icon: <FaReact fontSize={60} color="#66dbfb" />,
         title: "JavaScript Frontend Framework"
-    },{
+    }, {
         text: "Recoil",
         icon: <SiRecoil fontSize={60} color="#097ef4" />,
         title: "React State Management Library"
