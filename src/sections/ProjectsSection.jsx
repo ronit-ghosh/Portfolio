@@ -48,8 +48,8 @@ const ProjectsSection = () => {
       <ProjectCard
         title="Contact App"
         description="a CRUD Contact App with real-time contact management & search functionality."
-        githubLink="https://github.com/ronit-ghosh/React-JS-Practice-Projects/tree/main/Contact-App"
-        livePreviewLink="https://contact-app-one-gray.vercel.app/"
+        githubLink="https://github.com/ronit-ghosh/Contact-App"
+        livePreviewLink="https://crud-contact-app-psi.vercel.app/"
         features={contactApp}
         image={contactAppImg}
         isLeft={false} />
