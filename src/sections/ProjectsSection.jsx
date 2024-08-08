@@ -3,6 +3,7 @@ import mewsixImg from "../assets/images/mewsix.png"
 import contactAppImg from "../assets/images/contactapp.png"
 import devSandboxImg from "../assets/images/devsandbox.png"
 import animatedWebsiteImg from "../assets/images/animatedwebsite.png"
+import quipImg from "../assets/images/quip.png"
 
 const ProjectsSection = () => {
   const mewsix = [
@@ -11,6 +12,14 @@ const ProjectsSection = () => {
     "Volume control.",
     "Playlist functionality to queue up multiple tracks.",
     "Responsive design for seamless experience across devices"
+  ];
+
+  const quip = [
+    " real-time messaging.",
+    "user authentication.",
+    "responsive design.",
+    "Demo ID: demo@gmail.com",
+    "Password: demo123"
   ];
 
   const contactApp = [
@@ -46,13 +55,22 @@ const ProjectsSection = () => {
         image={mewsixImg}
         isLeft />
       <ProjectCard
+        title="Quip"
+        description="a real-time chat application using React, Tailwind CSS, and Firebase"
+        githubLink = "https://github.com/ronit-ghosh/Quip"
+        livePreviewLink="https://quiip.vercel.app/"
+        features={quip}
+        image={quipImg}
+        isLeft={false}
+      />
+      <ProjectCard
         title="Contact App"
         description="a CRUD Contact App with real-time contact management & search functionality."
         githubLink="https://github.com/ronit-ghosh/Contact-App"
         livePreviewLink="https://crud-contact-app-psi.vercel.app/"
         features={contactApp}
         image={contactAppImg}
-        isLeft={false} />
+        isLeft />
       <ProjectCard
         title="Dev Sandbox"
         description="a web application designed to render HTML, CSS, and JavaScript."
@@ -60,7 +78,7 @@ const ProjectsSection = () => {
         livePreviewLink="https://dev-sandbox-three.vercel.app/"
         features={devSandbox}
         image={devSandboxImg}
-        isLeft
+        isLeft={false}
       />
       <ProjectCard
         title="Animated Website"
@@ -69,7 +87,7 @@ const ProjectsSection = () => {
         livePreviewLink="https://animated-golf-website.vercel.app/"
         features={animatedWebsite}
         image={animatedWebsiteImg}
-        isLeft={false}
+        isLeft
       />
     </div>
     </>
