@@ -5,6 +5,9 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa6";
 import { SiRecoil } from "react-icons/si";
+import { DiNodejsSmall } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
 const SkillsSection = () => {
     const skills = [{
@@ -21,12 +24,24 @@ const SkillsSection = () => {
         text: "JavaScript",
         icon: <IoLogoJavascript fontSize={60} color="#f7e025" />
     }, {
+        text: "Node",
+        icon: <DiNodejsSmall fontSize={60} color="#90ca51" />,
+        title: "JavaScript Runtime"
+    }, {
         text: "React",
         icon: <FaReact fontSize={60} color="#66dbfb" />,
         title: "JavaScript Frontend Framework"
     }, {
         text: "Recoil",
         icon: <SiRecoil fontSize={60} color="#097ef4" />,
+        title: "React State Management Library"
+    }, {
+        text: "Express",
+        icon: <SiExpress fontSize={60} color="darkgray" />,
+        title: "React State Management Library"
+    }, {
+        text: "Mongo",
+        icon: <SiMongodb fontSize={60} color="#55ad47" />,
         title: "React State Management Library"
     },]
 
