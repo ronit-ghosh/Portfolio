@@ -25,7 +25,7 @@ const LandingPage = () => {
                         <p className="mb-8 leading-relaxed capitalize">A passionate self-taught web developer with a keen interest in creating dynamic and responsive web applications. Currently enhancing my skills in React, Express, Node.js, and more.</p>
                         <div className="flex justify-center">
                             <a href="https://github.com/ronit-ghosh" target='_blank'><button className="flex items-center gap-2 text-white bg-accent border-0 py-2 px-6 focus:outline-none hover:bg-accent_hover rounded text-lg"><FaGithub fontSize={24} /> Github</button></a>
-                            <a href="https://drive.google.com/file/d/14Vu3qyrZOsi0D4-Zl7mxlVS-OBR2GhMm/view?usp=sharing" target='_blank'><button className="ml-4 flex items-center gap-2 border-0 py-2 px-6 focus:outline-none rounded text-lg bg-btn_bg_color hover:bg-btn_hover_bg_color text-btn_text"><FiDownloadCloud fontSize={23} />Resume</button></a>
+                            <a href="https://drive.google.com/file/d/1Nu2wb0gKoEW65KWYXUJrGyik-Gg3KHVa/view?usp=sharing" target='_blank'><button className="ml-4 flex items-center gap-2 border-0 py-2 px-6 focus:outline-none rounded text-lg bg-btn_bg_color hover:bg-btn_hover_bg_color text-btn_text"><FiDownloadCloud fontSize={23} />Resume</button></a>
                         </div>
                     </div>
                     <div className='overflow-hidden lg:max-w-xl lg:w-full md:w-1/2 object-cover object-center rounded '>
