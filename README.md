@@ -23,9 +23,9 @@ This repository contains the source code for my portfolio website, showcasing my
 
 1. Clone the repository:
 
-   ```bash
+```bash
   https://github.com/ronit-ghosh/Portfolio.git
-   ```
+  ```
 
 2. Navigate to the project directory:
 
