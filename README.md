@@ -1,10 +1,6 @@
-Here's a template for your personal portfolio README file:
-
----
-
 # Personal Portfolio
 
-Welcome to my personal portfolio! This repository contains the source code for my portfolio website, showcasing my skills, projects, and more. The website is built using React.js and includes a variety of features to enhance user experience.
+This repository contains the source code for my portfolio website, showcasing my skills, projects, and more. The website is built using React.js and includes a variety of features to enhance user experience.
 
 ## Features
 
@@ -22,20 +18,19 @@ Welcome to my personal portfolio! This repository contains the source code for m
 - **Form Validation**: Yup
 - **Dark/Light Mode Toggle**: Custom toggle switch
 - **Styling**: Tailwind CSS
-- **Animation**: GSAP
 
 ## Installation
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   ```
+```bash
+  https://github.com/ronit-ghosh/Portfolio.git
+  ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-portfolio
+   cd Portfolio
    ```
 
 3. Install the dependencies:
@@ -50,18 +45,11 @@ Welcome to my personal portfolio! This repository contains the source code for m
    npm run dev
    ```
 
-   Your portfolio website should now be running on [http://localhost:3000](http://localhost:3000).
+   Your portfolio website should now be running on [http://localhost:5173](http://localhost:3000).
 
 ## Contact Form
 
 The contact form data is saved to my personal database. To configure this functionality, you'll need to:
-
-1. Set up your personal database connection in the backend.
-2. Ensure that the form submission endpoint is properly configured to handle form data.
-
-## Customization
-
-Feel free to customize the website according to your preferences. You can modify the content, styles, and other elements to better reflect your personal brand.
 
 ## Acknowledgements
 
@@ -69,10 +57,5 @@ Feel free to customize the website according to your preferences. You can modify
 - [Formik](https://formik.org/)
 - [Yup](https://github.com/jquense/yup)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [GSAP](https://greensock.com/gsap/)
 
 Thank you for visiting my portfolio!
-
----
-
-Feel free to adjust any sections or add more details based on your specific setup and preferences.
