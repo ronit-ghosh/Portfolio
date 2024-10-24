@@ -10,7 +10,9 @@ import { SiMongodb } from "react-icons/si";
 import { SiPrisma } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiHono } from "react-icons/si";
-
+import { SiNextdotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiFastify } from "react-icons/si";
 
 const SkillsSection = () => {
     const skills = [{
@@ -24,9 +26,20 @@ const SkillsSection = () => {
         icon: <SiTailwindcss fontSize={60} color="#1dc0cd" />,
         title: "CSS Framework"
     }, {
+        text: "TypeScript",
+        icon: <SiTypescript fontSize={60} color="#3178c6" />
+    }, {
         text: "JavaScript",
         icon: <IoLogoJavascript fontSize={60} color="#f7e025" />
     }, {
+        text: "Next",
+        icon: <SiNextdotjs fontSize={60} color="black" />,
+        
+    }, {
+        text: "Fastify",
+        icon: <SiFastify fontSize={60} color="black" />,
+        title: "Backend Framework"
+    },{
         text: "Express",
         icon: <SiExpress fontSize={60} color="darkgray" />,
         title: "Backend Framework"
