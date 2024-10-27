@@ -35,10 +35,6 @@ const SkillsSection = () => {
         text: "Next",
         icon: <SiNextdotjs fontSize={60} color="black" />,
         
-    }, {
-        text: "Fastify",
-        icon: <SiFastify fontSize={60} color="black" />,
-        title: "Backend Framework"
     },{
         text: "Express",
         icon: <SiExpress fontSize={60} color="darkgray" />,
