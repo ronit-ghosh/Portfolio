@@ -21,7 +21,12 @@ const SkillsSection = () => {
     }, {
         text: "Next",
         icon: <SiNextdotjs fontSize={60} color="black" />,
+<<<<<<< HEAD
     }, {
+=======
+        
+    },{
+>>>>>>> 9b7aa715bf32a106f5099a1a01d2a126f598ae8e
         text: "Express",
         icon: <SiExpress fontSize={60} color="darkgray" />,
         title: "Backend Framework"
