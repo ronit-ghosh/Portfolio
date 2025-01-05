@@ -1,6 +1,4 @@
 import SkillsCard from "../components/SkillsCard";
-import { FaHtml5 } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa6";
@@ -12,34 +10,18 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { SiHono } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
-import { SiFastify } from "react-icons/si";
 
 const SkillsSection = () => {
     const skills = [{
-        text: "HTML",
-        icon: <FaHtml5 fontSize={60} color="#e96228" />
-    }, {
-        text: "CSS",
-        icon: <IoLogoCss3 fontSize={60} color="#2862e9" />
-    }, {
-        text: "Tailwind",
-        icon: <SiTailwindcss fontSize={60} color="#1dc0cd" />,
-        title: "CSS Framework"
+        text: "JavaScript",
+        icon: <IoLogoJavascript fontSize={60} color="#f7e025" />
     }, {
         text: "TypeScript",
         icon: <SiTypescript fontSize={60} color="#3178c6" />
     }, {
-        text: "JavaScript",
-        icon: <IoLogoJavascript fontSize={60} color="#f7e025" />
-    }, {
         text: "Next",
         icon: <SiNextdotjs fontSize={60} color="black" />,
-        
     }, {
-        text: "Fastify",
-        icon: <SiFastify fontSize={60} color="black" />,
-        title: "Backend Framework"
-    },{
         text: "Express",
         icon: <SiExpress fontSize={60} color="darkgray" />,
         title: "Backend Framework"
@@ -51,6 +33,10 @@ const SkillsSection = () => {
         text: "React",
         icon: <FaReact fontSize={60} color="#66dbfb" />,
         title: "Frontend Framework"
+    }, {
+        text: "Tailwind",
+        icon: <SiTailwindcss fontSize={60} color="#1dc0cd" />,
+        title: "CSS Framework"
     }, {
         text: "Recoil",
         icon: <SiRecoil fontSize={60} color="#097ef4" />,
