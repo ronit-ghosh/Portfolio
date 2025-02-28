@@ -1,4 +1,4 @@
-import { Github, Link, MoveDown } from 'lucide-react'
+import { ChevronDown, ChevronsDown, Github, Link, MoveDown } from 'lucide-react'
 import React from 'react'
 import { ScrollArea } from './ui/scroll-area'
 import {
@@ -13,7 +13,7 @@ import { Project, projectsarray } from '@/lib/projects'
 export default function Projects() {
     const projects = projectsarray
     return (
-        <div className="mt-5 w-full">
+        <div className="mt-5 w-full relative">
             <h3 className="w-32 mx-auto text-xl font-bold flex justify-center items-center gap-1">
                 Projects
                 <MoveDown size={14} className="animate-bounce" />
@@ -21,6 +21,7 @@ export default function Projects() {
             <ScrollArea className='h-85 py-2'>
                 <ProjectCard projects={projects} />
             </ScrollArea>
+            <span className='absolute right-1/2 bottom-0 z-10 animate-pulse'><ChevronsDown /></span>
         </div>
     )
 }
