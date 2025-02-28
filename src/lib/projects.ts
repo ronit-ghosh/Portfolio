@@ -14,12 +14,11 @@ export const projectsarray: Project[] = [
         github: "https://github.com/ronit-ghosh/Artify",
         live: "https://artify.ronitghosh.site",
         features: [
-            "Fetch all blogs with pagination, fetch specific user's blogs",
-            "Recoil AtomFamily, SelectorFamily for async data fetching and caching",
-            "Sign-in, sign-up, Create, update, delete blogs",
-            "Zod validation, password hashing",
-            "Used Zod type inference for consistent type safety across backend and frontend",
-            "Custom hooks for cleaner code base",
+            "Built the frontend using Next.js and ShadCN for a smooth user experience.",
+            "Developed the backend with Express, integrating Fal AI as the hosted AI platform and Flux-LoRA as the image generation model.",
+            "Implemented user model training for personalized AI-generated images.",
+            "Designed and integrated a prompt-based and pre-made pack system for image generation.",
+            "Optimized API performance for efficient image processing and generation.",
         ],
         techs: ["Express", "Next", "Prisma", "Zod", "Shadcn"]
     },
