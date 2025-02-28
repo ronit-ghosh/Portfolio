@@ -24,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="https://res.cloudinary.com/drynqkitl/image/upload/v1740764217/logo_dvg1ol.svg" type="image/x-icon" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
       >
