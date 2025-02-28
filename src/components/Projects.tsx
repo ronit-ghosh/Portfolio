@@ -1,4 +1,4 @@
-import { ChevronDown, ChevronsDown, Github, Link, MoveDown } from 'lucide-react'
+import { ChevronsDown, Github, Link, MoveDown } from 'lucide-react'
 import React from 'react'
 import { ScrollArea } from './ui/scroll-area'
 import {
