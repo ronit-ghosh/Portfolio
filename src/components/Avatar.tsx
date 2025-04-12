@@ -16,8 +16,8 @@ export default function Avatar() {
                     <div className="h-26 w-26 rounded-full absolute bg-purple-600 animate-pulse -top-1 -left-1 -z-10" />
                 </div>
             </HoverCardTrigger>
-            <HoverCardContent className="text-center w-40 p-1">
-                I Just Build Shit 🤷‍♂️
+            <HoverCardContent className="text-center w-40 p-2 text-xs">
+                Currently Building Dating App
             </HoverCardContent>
         </HoverCard>
     )

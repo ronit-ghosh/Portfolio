@@ -1,5 +1,4 @@
-import { ChevronsDown, Github, Link, MoveDown } from 'lucide-react'
-import React from 'react'
+import { ChevronsDown, Github, Link as LinkSvg, MoveDown } from 'lucide-react'
 import { ScrollArea } from './ui/scroll-area'
 import {
     Accordion,
@@ -9,9 +8,9 @@ import {
 } from "@/components/ui/accordion"
 import { Separator } from './ui/separator'
 import { Project, projectsarray } from '@/lib/projects'
+import Link from 'next/link'
 
 export default function Projects() {
-    const projects = projectsarray
     return (
         <div className="mt-5 w-full relative">
             <h3 className="w-32 mx-auto text-xl font-bold flex justify-center items-center gap-1">
@@ -19,7 +18,7 @@ export default function Projects() {
                 <MoveDown size={14} className="animate-bounce" />
             </h3>
             <ScrollArea className='h-85 py-2'>
-                <ProjectCard projects={projects} />
+                <ProjectCard projects={projectsarray} />
             </ScrollArea>
             <span className='absolute right-1/2 bottom-0 z-10 animate-pulse'><ChevronsDown /></span>
         </div>
@@ -39,12 +38,12 @@ function ProjectCard({ projects }: { projects: Project[] }) {
                                     <span className="font-normal text-primary/70 capitalize">{project.desc}</span>
                                 </div>
                                 <div className="flex items-center gap-3">
-                                    <a target='_blank' href={project.live} className='hover:scale-105 transition-transform'>
-                                        <Link size={21} />
-                                    </a>
-                                    <a target='_blank' href={project.github} className='hover:scale-105 transition-transform'>
+                                    <Link target='_blank' href={project.live} className='hover:scale-105 transition-transform'>
+                                        <LinkSvg size={21} />
+                                    </Link>
+                                    <Link target='_blank' href={project.github} className='hover:scale-105 transition-transform'>
                                         <Github size={21} />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </AccordionTrigger>

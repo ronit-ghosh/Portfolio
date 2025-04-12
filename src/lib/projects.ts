@@ -9,6 +9,20 @@ export interface Project {
 
 export const projectsarray: Project[] = [
     {
+        name: "Quiz AI",
+        desc: "AI Generated Quizzes",
+        github: "https://github.com/ronit-ghosh/AI-Quiz-App",
+        live: "https://quiz.ronitghosh.site",
+        features: [
+            "Built the frontend using Next.js and Zustand for a fast and intuitive quiz creation experience.",
+            "Developed the backend with Express and integrated Gemini API for generating quizzes from images, PDFs, and text prompts.",
+            "Implemented image-to-quiz and PDF-to-quiz features using Gemini’s vision and language capabilities.",
+            "Used Prisma for scalable database operations and Zod for secure input validation.",
+            "Optimized quiz generation flow for low latency and high accuracy across all input types.",
+        ],
+        techs: ["Express", "Next", "Zustand", "Prisma", "Zod"]
+    },
+    {
         name: "Artify",
         desc: "Image Generation AI",
         github: "https://github.com/ronit-ghosh/Artify",
