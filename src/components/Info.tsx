@@ -8,9 +8,9 @@ export default function Info() {
                     Resume
                 </button>
             </Link>
-            <Link href="https://portfolio.ronitghosh.site">
+            <Link href="https://stirring-lamp-59e.notion.site/s-few-projects-1b9e9513904780d69717c21eae3a16af?pvs=4">
                 <button className="cursor-pointer border border-neutral-900 text-neutral-300 font-bold px-2 py-1 transition-transform rounded-lg bg-gradient-to-t from-neutral-900 to-neutral-950">
-                    Portfolio
+                    Updated
                 </button>
             </Link>
         </div>
