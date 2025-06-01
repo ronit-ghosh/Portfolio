@@ -9,7 +9,7 @@ import Prisma from "@/assets/Prisma.svg"
 import Zustand from "@/assets/zustand.png"
 import Typescript from "@/assets/TypeScript.svg"
 import Hono from "@/assets/Hono.svg"
-import Zod from "@/assets/Zod.svg"
+import Zod from "@/assets/zod.png"
 
 const skills = [
     Typescript,
