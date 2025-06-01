@@ -10,12 +10,12 @@ export default function Socials() {
                 <Github size={26} />
             </Link>
             <Link
-                href="https://twitter.com/ronit__ghosh"
+                href="https://twitter.com/ronntwt"
                 className="cursor-pointer rounded-full p-2 hover:scale-105 active:scale-105 transition-transform">
                 <Twitter size={26} />
             </Link>
             <Link
-                href="https://www.instagram.com/ronit__ghosh/"
+                href="https://www.instagram.com/ronnn_ig/"
                 className="cursor-pointer rounded-full p-2 hover:scale-105 active:scale-105 transition-transform">
                 <Instagram size={26} />
             </Link>
