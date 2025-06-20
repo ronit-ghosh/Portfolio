@@ -1,29 +1,63 @@
-import { Github, Instagram, Linkedin, Twitter } from "lucide-react"
-import Link from "next/link"
+import {
+  IconBrandDiscord,
+  IconBrandGithub,
+  IconBrandInstagram,
+  IconBrandLinkedin,
+  IconBrandTelegram,
+  IconBrandX,
+} from "@tabler/icons-react";
+import Link from "next/link";
+import { hrtime } from "process";
+import { toast } from "sonner";
+
+const LINKS = [
+  {
+    href: "https://github.com/ronit-ghosh",
+    icon: <IconBrandGithub size={26} />,
+  },
+  {
+    href: "https://twitter.com/ronntwt",
+    icon: <IconBrandX size={26} />,
+  },
+  {
+    href: "https://www.instagram.com/ronnn_ig/",
+    icon: <IconBrandInstagram size={26} />,
+  },
+  {
+    href: "https://www.linkedin.com/in/ronit-ghosh-7b10972a2/",
+    icon: <IconBrandLinkedin size={26} />,
+  },
+  {
+    href: "https://t.me/ronn_tg",
+    icon: <IconBrandTelegram size={26} />,
+  },
+  {
+    href: "ronnn_dc",
+    icon: <IconBrandDiscord size={26} />,
+  },
+];
 
 export default function Socials() {
-    return (
-        <div className="flex space-x-4 pt-1">
-            <Link
-                href="https://github.com/ronit-ghosh"
-                className="cursor-pointer rounded-full p-2 hover:scale-105 active:scale-105 transition-transform">
-                <Github size={26} />
-            </Link>
-            <Link
-                href="https://twitter.com/ronntwt"
-                className="cursor-pointer rounded-full p-2 hover:scale-105 active:scale-105 transition-transform">
-                <Twitter size={26} />
-            </Link>
-            <Link
-                href="https://www.instagram.com/ronnn_ig/"
-                className="cursor-pointer rounded-full p-2 hover:scale-105 active:scale-105 transition-transform">
-                <Instagram size={26} />
-            </Link>
-            <Link
-                href="https://www.linkedin.com/in/ronit-ghosh-7b10972a2/"
-                className="cursor-pointer rounded-full p-2 hover:scale-105 active:scale-105 transition-transform">
-                <Linkedin size={26} />
-            </Link>
-        </div >
-    )
+  return (
+    <div className="flex space-x-1 pt-1">
+      {LINKS.map((link, i) => {
+        return (
+          <Link
+            onClick={() => {
+              if (link.href === "ronnn_dc") {
+                navigator.clipboard.writeText(link.href as string);
+                toast("Username copied to clipboard ☑️");
+                return;
+              }
+            }}
+            key={i}
+            href={link.href === "ronnn_dc" ? "#" : link.href}
+            className="cursor-pointer rounded-full p-2 transition-transform hover:scale-105 active:scale-105"
+          >
+            {link.icon}
+          </Link>
+        );
+      })}
+    </div>
+  );
 }
