@@ -3,7 +3,6 @@ import Info from "@/components/Info";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Socials from "@/components/Socials";
-import { motion } from "motion/react";
 
 export default function Main() {
   return (

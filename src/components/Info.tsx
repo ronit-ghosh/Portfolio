@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { motion, useAnimate } from "motion/react";
 import { IconExternalLink } from "@tabler/icons-react";
 import { cn } from "@/lib/utils";

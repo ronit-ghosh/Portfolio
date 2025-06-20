@@ -1,6 +1,10 @@
 "use client";
 
-import { IconBrandGithub, IconChevronsDown, IconLink } from "@tabler/icons-react";
+import {
+  IconBrandGithub,
+  IconChevronsDown,
+  IconLink,
+} from "@tabler/icons-react";
 import { ScrollArea } from "./ui/scroll-area";
 import {
   Accordion,
